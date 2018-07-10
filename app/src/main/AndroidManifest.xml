@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lixin.takeoutfood.rider">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.PassWordSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ValidateFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ValidateSecondActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.activity.ValidateResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ValidateIdentityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ForgetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SafeSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ResetPassWordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SafeSettingValidateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.PersonalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.PayDepositActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.PayResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.BankCardListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SetPasswordValidateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.OrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MyWalletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MyWalletExtractResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MyWalletExtractValidateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.TransferAccountsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ExtractActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.activity.AddBankCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MyBillActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.TransferInputActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.FeedBackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.WebActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.KefuActivity"></activity>
+    </application>
+
+</manifest>

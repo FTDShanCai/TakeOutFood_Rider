@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">外卖(骑手端)</string>
+
+    <string name="rider">骑手端</string>
+    <string name="confirm">确定</string>
+    <string name="submit">提交</string>
+    <string name="retry">重试</string>
+    <string name="next">下一步</string>
+    <string name="navigation">导航</string>
+    <string name="result">结果</string>
+    <string name="validate_title">身份验证</string>
+    <string name="transfer_accounts">转账</string>
+    <string name="extract">提现</string>
+    <string name="mark">备注</string>
+    <string name="save">保存</string>
+    <string name="message">消息</string>
+    <string name="delete">删除</string>
+    <string name="pay">支付</string>
+
+
+    <string name="code">验证码</string>
+
+    //登录
+    <string name="login_account">帐号:</string>
+    <string name="login_password">密码:</string>
+    <string name="login_forget_password">找回密码</string>
+
+    <string name="login_account_hint">请输入帐号</string>
+    <string name="login_password_hint">密码</string>
+    <string name="login">登录</string>
+    <string name="login_be_rider">成为骑手</string>
+
+    //密码设置
+    <string name="password_set_title">密码设置</string>
+    <string name="password_set_hint">请输入登录密码</string>
+    <string name="password_set_again_hint">请在输入一次登录密码</string>
+    <string name="password_set_email_hint">请在输入绑定的邮箱账号</string>
+    <string name="password_set_code_hint">验证码</string>
+    <string name="password_set_send_code">向邮箱发送验证码</string>
+
+    //验证1
+    <string name="validate_tip">只有验证身份通过审核才可以抢单哦~</string>
+    <string name="validate_submit">验证身份</string>
+
+    //验证2
+    <string name="validate_lab_1">基本信息</string>
+    <string name="validate_name">真实姓名:</string>
+    <string name="validate_name_hint">请输入您的真实姓名</string>
+    <string name="validate_sex">性\t\t\t别:</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="validate_id_card_number">身份证号:</string>
+    <string name="validate_id_card_number_hint">请输入您的身份证号</string>
+    <string name="validate_id_card">身份证件:</string>
+    <string name="validate_id_card_lable_1">身份证正面</string>
+    <string name="validate_id_card_lable_2">身份证反面</string>
+    <string name="validate_id_card_lable_3">手持身份证</string>
+    <string name="validate_already">我已阅读并同意</string>
+    <string name="validate_contract">《******用户协议》</string>
+
+    //验证结果
+    <string name="validate_result_tip1">恭喜您提交成功</string>
+    <string name="validate_result_tip2">请耐心等待审核</string>
+
+
+    //找回密码
+    <string name="forget_password_new_password">新密码:\t\t</string>
+    <string name="forget_password_new_password_hint">请输入新密码</string>
+    <string name="forget_password_confirm_password">确认密码:</string>
+    <string name="forget_password_confirm_password_hint">请再输入一次新密码</string>
+
+    //注册
+    <string name="register">注册</string>
+    <string name="register_phone_hint">请输入绑定手机号</string>
+    <string name="register_send_code">获取验证码</string>
+
+
+    //main
+    <string name="main_menu_home">抢单</string>
+    <string name="main_menu_order">我的订单</string>
+    <string name="main_menu_mine">个人中心</string>
+
+
+    //抢单页面
+    <string name="rob_order_title">骑手端</string>
+    <string name="rob_order_working">工作中</string>
+
+    <string name="rob_qu">取:</string>
+    <string name="rob_song">送:</string>
+    <string name="rob_distance">距离:</string>
+    <string name="rob_price">配送费:</string>
+
+    <string name="rob_create_time">顾客下单时间:</string>
+    <string name="rob_send_time">顾客送达时间:</string>
+
+    <string name="rob_submit">立即抢单</string>
+
+    //订单页面
+    <string name="order_title">订单管理</string>
+    <string name="order_tab_1">待取件</string>
+    <string name="order_tab_2">配送中</string>
+    <string name="order_tab_3">已完成</string>
+    <string name="order_state_1">已取单</string>
+    <string name="order_state_2">退单</string>
+
+
+    //个人中心
+
+    <string name="mine_title">个人中心</string>
+
+    <string name="mine_menu_1">个人信息</string>
+    <string name="mine_menu_2">我的钱包</string>
+    <string name="mine_menu_3">银行卡管理</string>
+    <string name="mine_menu_4">缴纳保证金</string>
+    <string name="mine_menu_5">我的消息</string>
+    <string name="mine_menu_6">联系客服</string>
+    <string name="mine_menu_7">我的设置</string>
+
+
+    //安全设置
+    <string name="safe_set_title">安全设置</string>
+    <string name="safe_set_1">重置支付密码</string>
+    <string name="safe_set_2">重置登录密码</string>
+
+
+    //修改登录密码 //修改提现密码
+    <string name="reset_password_title_1">修改登录密码</string>
+    <string name="reset_password_title_2">修改提现密码</string>
+    <string name="reset_password_new">新密码:\t\t</string>
+    <string name="reset_password_new_hint">请输入新的登录密码</string>
+    <string name="reset_password_confim">确认密码:</string>
+    <string name="reset_password_confim_hint">请再输入一次登录密码</string>
+
+    <string name="reset_password_tixian_new">新提现密码:\t\t</string>
+    <string name="reset_password_tixian_new_hint">请输入提现密码</string>
+    <string name="reset_password_tixian_confim">确认提现密码:</string>
+    <string name="reset_password_tixian_confim_hint">请再输入一次支付密码</string>
+
+
+    //安全设置 验证身份
+    <string name="safe_setting_validate_title">验证身份</string>
+
+
+    //个人信息
+    <string name="personal_title">个人信息</string>
+    <string name="personal_labe_1">真实姓名:</string>
+    <string name="personal_labe_2">姓\t\t\t别:</string>
+    <string name="personal_labe_3">身份证号:</string>
+    <string name="personal_labe_4">身份证件:</string>
+    <string name="personal_img_tip_1">身份证正面</string>
+    <string name="personal_img_tip_2">身份证反面</string>
+    <string name="personal_img_tip_3">手持身份证</string>
+
+    //缴纳保证金
+    <string name="pay_deposit_title">缴纳保证金</string>
+
+    //缴纳保证金 结果
+    <string name="pay_result_1">等待平台审核</string>
+    <string name="pay_result_2">审核成功之后所有服务\n即可正常使用请耐心等待</string>
+    <string name="pay_result_back">回到骑手中心</string>
+
+
+    //银行卡
+    <string name="bank_list_title">银行卡</string>
+    <string name="bank_list_add">添加银行卡</string>
+
+
+    //设置密码 验证
+    <string name="set_password_tip1">旧密码:</string>
+    <string name="set_password_tip1_hint">请输入登录密码</string>
+
+    //订单详情
+
+
+    //我的钱包
+    <string name="wallet_title">我的钱包</string>
+    <string name="wallet_account_price">我的余额</string>
+    <string name="wallet_account_1">提现</string>
+    <string name="wallet_account_2">转账</string>
+    <string name="wallet_account_3">我的账单</string>
+
+
+    //我的钱包-等待审核
+    <string name="wallet_extract_result_lable1">已提交提现申请</string>
+    <string name="wallet_extract_result_lable2">正在等待平台审核</string>
+    <string name="wallet_extract_result_lable3">回到钱包</string>
+
+    //我的钱包-身份验证
+    <string name="wallet_validate_lable1">登录密码</string>
+    <string name="wallet_validate_lable1_hint">请输入登录密码</string>
+    <string name="wallet_validate_lable2">提现密码</string>
+    <string name="wallet_validate_lable2_hint">请输入提现密码</string>
+
+
+    //转账
+    <string name="transfer_accounts_lable">转账金额</string>
+    <string name="transfer_accounts_lable_hint">请输入转账</string>
+    <string name="transfer_accounts_confim">确认转账</string>
+
+    //提现
+    <string name="extract_lable">提现金额</string>
+    <string name="extract_lable_hint">请选择提现金额</string>
+    <string name="extract_mark">备注:</string>
+    <string name="extract_mark_hint">请输入备注信息</string>
+    <string name="extract_submit">申请提现</string>
+
+
+    //添加银行卡信息
+    <string name="add_bank_card_title">添加银行卡信息</string>
+    <string name="add_bank_card_choice">请选择要汇入的银行</string>
+    <string name="add_bank_card_account">银行卡号:</string>
+    <string name="add_bank_card_account_hint">请输入银行卡号</string>
+    <string name="add_bank_card_user">开\t户\t人:</string>
+    <string name="add_bank_card_user_hint">请输入开户人的名字</string>
+    <string name="add_bank_card_address">家庭住址:</string>
+    <string name="add_bank_card_address_hint">请输入您的家庭住址</string>
+    <string name="add_bank_card_phone">手\t机\t号:</string>
+    <string name="add_bank_card_phone_hint">请输入您的手机号</string>
+
+    //我的账单
+    <string name="my_bill">我的账单</string>
+
+
+    //转账
+    <string name="transfer_labe">对方账户:</string>
+    <string name="transfer_labe_hint">请输入对方商家的余额宝账户</string>
+    <string name="transfer_tips">钱将实时转入对方账户，无法退款</string>
+
+    //设置
+    <string name="setting_title">我的设置</string>
+    <string name="setting_lable_1">安全设置</string>
+    <string name="setting_lable_2">关于我们</string>
+    <string name="setting_lable_3">意见反馈</string>
+    <string name="setting_login_out">安全退出</string>
+
+
+    //意见反馈
+    <string name="feedback">意见反馈</string>
+    <string name="feedback_hint">请留下您宝贵的意见!</string>
+</resources>

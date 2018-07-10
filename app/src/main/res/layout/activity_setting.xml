@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.activity.SettingActivity">
+
+    <include layout="@layout/in_toolbar_accent"></include>
+
+    <TextView
+        android:id="@+id/tv_safe_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/ic_arrow_right"
+        android:padding="16dp"
+        android:text="@string/setting_lable_1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color_default" />
+
+    <TextView
+        android:id="@+id/tv_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/ic_arrow_right"
+        android:padding="16dp"
+        android:text="@string/setting_lable_2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color_default" />
+
+    <TextView
+        android:id="@+id/tv_feed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/ic_arrow_right"
+        android:padding="16dp"
+        android:text="@string/setting_lable_3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color_default" />
+
+    <TextView
+        android:id="@+id/tv_login_out"
+        style="@style/app_submit_btn_black3_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/setting_login_out" />
+
+
+</LinearLayout>

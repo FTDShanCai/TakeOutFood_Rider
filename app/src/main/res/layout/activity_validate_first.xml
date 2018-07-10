@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.activity.ValidateFirstActivity">
+
+    <include layout="@layout/in_toolbar_grey"></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"
+        android:text="@string/validate_tip"
+        android:textColor="@color/colorAccent"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_next"
+        style="@style/app_submit_btn_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/validate_submit" />
+</LinearLayout>

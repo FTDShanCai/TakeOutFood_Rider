@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.activity.PassWordSettingActivity">
+
+    <include layout="@layout/in_toolbar"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color_default" />
+
+    <EditText
+        style="@style/margin_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:hint="@string/password_set_hint"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <View
+        style="@style/margin_16"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color_default" />
+
+    <EditText
+        style="@style/margin_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:hint="@string/password_set_again_hint"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <View
+        style="@style/margin_16"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color_default" />
+
+    <EditText
+        style="@style/margin_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:hint="@string/password_set_email_hint"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <View
+        style="@style/margin_16"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color_default" />
+
+    <LinearLayout
+        style="@style/margin_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/password_set_code_hint"
+            android:inputType="numberSigned"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/line_color_default" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/password_set_send_code"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/margin_16"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color_default" />
+
+    <TextView
+        android:id="@+id/tv_submit"
+        style="@style/app_submit_btn_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/confirm" />
+
+
+</LinearLayout>
